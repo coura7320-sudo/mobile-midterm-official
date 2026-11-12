@@ -1,0 +1,31 @@
+[
+  {
+    "type": "direct",
+    "participantIds": [
+      "314564c2-c356-43b5-8d04-31c9ae940856",
+      "750bc12d-85a2-4416-91f1-08b6472cd7f9"
+    ],
+    "archivedBy": [],
+    "createdAt": "2026-11-12T16:17:09.007Z",
+    "updatedAt": "2026-11-12T18:20:53.971Z",
+    "id": "2f0b8579-f51a-45aa-bae0-c77484c98ac3",
+    "lastMessageId": "9e97bc72-15c1-431c-ab44-3f214517e532",
+    "lastMessageText": "Phase 11 end-to-end verification message!",
+    "lastMessageAt": "2026-11-12T18:20:53.971Z"
+  },
+  {
+    "type": "group",
+    "name": "React Native Midterm Group",
+    "avatarUrl": "https://ui-avatars.com/api/?name=React%20Native%20Midterm%20Group&background=075E54&color=fff&bold=true",
+    "participantIds": [
+      "314564c2-c356-43b5-8d04-31c9ae940856",
+      "750bc12d-85a2-4416-91f1-08b6472cd7f9"
+    ],
+    "archivedBy": [],
+    "lastMessageText": "Group \"React Native Midterm Group\" created",
+    "lastMessageAt": "2026-11-12T18:20:53.878Z",
+    "createdAt": "2026-11-12T18:20:53.878Z",
+    "updatedAt": "2026-11-12T18:20:53.878Z",
+    "id": "24b23df2-3af1-4665-b942-f953e09d95be"
+  }
+]

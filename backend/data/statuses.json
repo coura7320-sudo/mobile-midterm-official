@@ -1,0 +1,16 @@
+[
+  {
+    "userId": "314564c2-c356-43b5-8d04-31c9ae940856",
+    "userName": "Alice Martin",
+    "userAvatar": "https://ui-avatars.com/api/?name=Alice%20Martin&background=128C7E&color=fff&bold=true",
+    "text": "Building a WhatsApp Clone with Expo & Socket.IO!",
+    "backgroundColor": "#075E54",
+    "viewedBy": [
+      "314564c2-c356-43b5-8d04-31c9ae940856",
+      "750bc12d-85a2-4416-91f1-08b6472cd7f9"
+    ],
+    "createdAt": "2026-11-12T18:20:53.901Z",
+    "expiresAt": "2026-11-13T18:20:53.901Z",
+    "id": "1ffb9bfc-676b-4e92-ac2c-f9c2056e65ff"
+  }
+]

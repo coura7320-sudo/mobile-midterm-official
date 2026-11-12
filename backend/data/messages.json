@@ -1,0 +1,53 @@
+[
+  {
+    "conversationId": "2f0b8579-f51a-45aa-bae0-c77484c98ac3",
+    "senderId": "314564c2-c356-43b5-8d04-31c9ae940856",
+    "text": "Hello Bob! Testing Phase 2 JSON persistence.",
+    "status": "sent",
+    "deliveredTo": [
+      "314564c2-c356-43b5-8d04-31c9ae940856"
+    ],
+    "readBy": [
+      "314564c2-c356-43b5-8d04-31c9ae940856"
+    ],
+    "starredBy": [],
+    "createdAt": "2026-11-12T16:17:09.025Z",
+    "id": "b66ad763-ffcb-447f-84f3-de393dbc2cda"
+  },
+  {
+    "conversationId": "2f0b8579-f51a-45aa-bae0-c77484c98ac3",
+    "senderId": "314564c2-c356-43b5-8d04-31c9ae940856",
+    "text": "Hey Bob! Real-time Socket.IO message from Alice.",
+    "status": "read",
+    "deliveredTo": [
+      "314564c2-c356-43b5-8d04-31c9ae940856",
+      "750bc12d-85a2-4416-91f1-08b6472cd7f9"
+    ],
+    "readBy": [
+      "314564c2-c356-43b5-8d04-31c9ae940856",
+      "750bc12d-85a2-4416-91f1-08b6472cd7f9"
+    ],
+    "starredBy": [],
+    "createdAt": "2026-11-12T18:04:40.279Z",
+    "id": "6fb332ab-7091-4a18-be14-d0725ecdc38f"
+  },
+  {
+    "conversationId": "2f0b8579-f51a-45aa-bae0-c77484c98ac3",
+    "senderId": "314564c2-c356-43b5-8d04-31c9ae940856",
+    "text": "Phase 11 end-to-end verification message!",
+    "status": "read",
+    "deliveredTo": [
+      "314564c2-c356-43b5-8d04-31c9ae940856",
+      "750bc12d-85a2-4416-91f1-08b6472cd7f9"
+    ],
+    "readBy": [
+      "314564c2-c356-43b5-8d04-31c9ae940856",
+      "750bc12d-85a2-4416-91f1-08b6472cd7f9"
+    ],
+    "starredBy": [
+      "314564c2-c356-43b5-8d04-31c9ae940856"
+    ],
+    "createdAt": "2026-11-12T18:20:53.971Z",
+    "id": "9e97bc72-15c1-431c-ab44-3f214517e532"
+  }
+]

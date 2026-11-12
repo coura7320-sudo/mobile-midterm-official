@@ -1,0 +1,24 @@
+[
+  {
+    "fullName": "Bob Dupont",
+    "email": "bob@example.com",
+    "passwordHash": "$2b$10$/gdn3HyOVw.w5dIzqej5X.6hqhSUgJXTmNnPhGk3VfFI97.edeWVy",
+    "avatarUrl": "https://ui-avatars.com/api/?name=Bob%20Dupont&background=128C7E&color=fff&bold=true",
+    "about": "Hey there! I am using WhatsApp.",
+    "isOnline": false,
+    "lastSeen": "2026-11-12T18:20:54.016Z",
+    "createdAt": "2026-11-12T16:17:08.831Z",
+    "id": "750bc12d-85a2-4416-91f1-08b6472cd7f9"
+  },
+  {
+    "fullName": "Alice Martin",
+    "email": "alice@example.com",
+    "passwordHash": "$2b$10$OM8cN59c1zMhMzZAjV6YCuiYAVABjDHN.HF40eE32TqS6ULVQp28i",
+    "avatarUrl": "https://ui-avatars.com/api/?name=Alice%20Martin&background=128C7E&color=fff&bold=true",
+    "about": "Studying Mobile Development with React Native",
+    "isOnline": false,
+    "lastSeen": "2026-11-12T18:20:54.015Z",
+    "createdAt": "2026-11-12T16:17:08.833Z",
+    "id": "314564c2-c356-43b5-8d04-31c9ae940856"
+  }
+]

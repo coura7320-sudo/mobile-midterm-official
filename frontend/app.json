@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "WhatsApp Clone",
+    "slug": "whatsapp-clone",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "whatsappclone",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.midterm.whatsappclone"
+    },
+    "android": {
+      "package": "com.midterm.whatsappclone",
+      "adaptiveIcon": {
+        "backgroundColor": "#075E54"
+      }
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      "expo-sqlite"
+    ]
+  }
+}
