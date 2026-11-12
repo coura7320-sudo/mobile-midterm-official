@@ -262,3 +262,4 @@ npx expo start
 - **Author:** Second-Year Computer Engineering Student
 - **Course:** Mobile Development Midterm Project
 - **Environment:** Google Antigravity IDE
+# mobile-midterm-official
