@@ -92,7 +92,7 @@ export default function TabsLayout() {
             <Ionicons
               name={focused ? 'chatbubbles' : 'chatbubbles-outline'}
               size={size}
-              color={color}
+              color={String(color)}
             />
           ),
         }}
@@ -105,7 +105,7 @@ export default function TabsLayout() {
             <Ionicons
               name={focused ? 'disc' : 'disc-outline'}
               size={size}
-              color={color}
+              color={String(color)}
             />
           ),
         }}
@@ -118,7 +118,7 @@ export default function TabsLayout() {
             <Ionicons
               name={focused ? 'people' : 'people-outline'}
               size={size}
-              color={color}
+              color={String(color)}
             />
           ),
         }}
@@ -131,7 +131,7 @@ export default function TabsLayout() {
             <Ionicons
               name={focused ? 'call' : 'call-outline'}
               size={size}
-              color={color}
+              color={String(color)}
             />
           ),
         }}

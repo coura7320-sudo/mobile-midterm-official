@@ -55,7 +55,7 @@ export default function IndividualChatScreen() {
   const [isSending, setIsSending] = useState(false);
 
   const flatListRef = useRef<FlatList<Message>>(null);
-  const inputRef = useRef<TextInput>(null);
+  const inputRef = useRef<React.ComponentRef<typeof TextInput>>(null);
   const typingTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const isCurrentlyTypingRef = useRef(false);
 

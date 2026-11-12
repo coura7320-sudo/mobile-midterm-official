@@ -33,9 +33,9 @@ export default function RegisterScreen() {
   const [generalError, setGeneralError] = useState<string | null>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const emailRef = useRef<TextInput>(null);
-  const passwordRef = useRef<TextInput>(null);
-  const confirmPasswordRef = useRef<TextInput>(null);
+  const emailRef = useRef<React.ComponentRef<typeof TextInput>>(null);
+  const passwordRef = useRef<React.ComponentRef<typeof TextInput>>(null);
+  const confirmPasswordRef = useRef<React.ComponentRef<typeof TextInput>>(null);
 
   const validate = (): boolean => {
     const errors: Record<string, string> = {};

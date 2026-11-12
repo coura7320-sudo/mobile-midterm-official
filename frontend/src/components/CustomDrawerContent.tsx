@@ -9,7 +9,6 @@ import {
   SafeAreaView,
 } from 'react-native';
 import { useRouter, usePathname } from 'expo-router';
-import { DrawerContentComponentProps } from '@react-navigation/drawer';
 import { Ionicons } from '@expo/vector-icons';
 import { useAuth } from '@/contexts/AuthContext';
 import { useTheme } from '@/contexts/ThemeContext';
@@ -30,7 +29,13 @@ const MENU_ITEMS: DrawerMenuItem[] = [
   { label: 'Help', icon: 'help-circle-outline', route: '/(drawer)/help' },
 ];
 
-export function CustomDrawerContent(props: DrawerContentComponentProps) {
+export interface CustomDrawerProps {
+  navigation: {
+    closeDrawer: () => void;
+  };
+}
+
+export function CustomDrawerContent(props: CustomDrawerProps) {
   const router = useRouter();
   const pathname = usePathname();
   const { user, logout } = useAuth();

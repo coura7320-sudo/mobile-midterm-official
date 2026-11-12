@@ -30,7 +30,7 @@ export default function LoginScreen() {
   const [generalError, setGeneralError] = useState<string | null>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const passwordInputRef = useRef<TextInput>(null);
+  const passwordInputRef = useRef<React.ComponentRef<typeof TextInput>>(null);
 
   const validate = (): boolean => {
     const errors: Record<string, string> = {};

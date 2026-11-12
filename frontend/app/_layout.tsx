@@ -11,7 +11,7 @@ function RootNavigator() {
 
   return (
     <>
-      <StatusBar style="light" backgroundColor={colors.headerBg} />
+      <StatusBar style="light" />
       <Stack
         screenOptions={{
           headerStyle: { backgroundColor: colors.headerBg },
